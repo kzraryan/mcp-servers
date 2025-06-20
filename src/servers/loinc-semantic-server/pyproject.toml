@@ -1,0 +1,4 @@
+[tool.poetry]
+name = "loinc-semantic-server"
+version = "0.1.0"
+description = "Semantic LOINC code search MCP server"

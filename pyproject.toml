@@ -1,0 +1,4 @@
+[tool.poetry]
+name = "mcp-servers"
+version = "0.1.0"
+description = "Model Context Protocol servers monorepo"

@@ -1,9 +1,0 @@
-{
-    "name": "server-template",
-    "description": "A template FastAPI MCP server.",
-    "main": "main.py",
-    "dependencies": [
-        "fastapi",
-        "uvicorn"
-    ]
-}
