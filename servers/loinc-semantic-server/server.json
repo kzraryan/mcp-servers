@@ -1,0 +1,10 @@
+{
+    "name": "loinc-semantic-server",
+    "description": "A FastAPI MCP server for semantic LOINC code retrieval using dspy.",
+    "main": "main.py",
+    "dependencies": [
+        "fastapi",
+        "uvicorn",
+        "dspy"
+    ]
+}
