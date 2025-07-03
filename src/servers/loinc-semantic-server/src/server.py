@@ -19,7 +19,7 @@ def semantic_loinc_search_tool(query: str, top_k: int = 5) -> List[dict]:
 def loinc_search_tool(query: str) -> List[dict]:
     return loinc_search(query, data_resources)
 
-@mcp.resource("/loinc-ontology")
+@mcp.resource("resource://loinc-ontology")
 def loinc_ontology_resource():
     return {
         "name": "loinc_ontology",
